@@ -25,6 +25,9 @@ There are some major factors such as feed consumption, water intake, light inten
 ## Demo of react app
 ![Settings Window](https://raw.github.com/nwoshadalve/Egg_Production_Monitoring_System/master/Sample.png)
 
+## Project report
+![Check out the full project](https://drive.google.com/file/d/1knM_4O9h95T2A10ma-EI-pyVvceHHBx1/view?usp=sharing)
+
 ## Authors
 
 - [MD Nwoshad Alam Chowdhury](https://www.github.com/nwoshadalve)

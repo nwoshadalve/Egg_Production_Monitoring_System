@@ -1,0 +1,22 @@
+.productionContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+.productionContainer select {
+  text-align: center;
+  outline: none;
+  padding: 5px 10px;
+}
+.productionContainer input {
+  outline: none;
+  padding: 5px 10px;
+}
+.productionContainer button {
+  padding: 5px 10px;
+}
+.productionContainer button:hover {
+  cursor: pointer;
+}

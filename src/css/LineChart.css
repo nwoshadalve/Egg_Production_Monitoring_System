@@ -1,0 +1,40 @@
+.container {
+  background: black;
+  margin-bottom: 20px;
+  width: 80vw;
+  display: flex;
+  margin: 10px auto;
+}
+h1 {
+  font-size: 24px;
+  text-align: center;
+}
+p {
+  width: 40vw;
+  margin: 0 auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+.selectContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+.selectContainer select {
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  outline: none;
+}
+.visContainer h1 {
+  font-size: 28px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: sans-serif;
+  text-align: center;
+}
+.selectContainer select option {
+  font-size: 16px;
+  font-family: sans-serif;
+}

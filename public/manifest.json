@@ -1,0 +1,38 @@
+{
+    "name": "Egg production monitoring system for light intensity",
+    "short_name": "Egg Production Monitor",
+    "theme_color": "#2196f3",
+    "background_color": "#2196f3",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "icons": [
+    {
+      "src": "maskable_icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "poultry192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "Poultry256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "poultry384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "poultry512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+
+  ]
+}

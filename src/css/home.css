@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+container {
+  height: 100vh;
+  width: 100vw;
+}
+header {
+  background-color: orange;
+  height: 200px;
+  width: auto;
+  display: grid;
+  place-items: center;
+}
+.textContainer {
+  height: 15vh;
+  width: 70vw;
+}
+.textContainer .headerTitle {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+}
+.dataContainer {
+  margin-top: 10px;
+  width: 100%;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dataContainer h1 {
+  font-size: 28px;
+  padding-bottom: 20px;
+  font-family: sans-serif;
+}
+.dataContainer .showData {
+  border: 1px solid black;
+  width: 80vw;
+  height: 65vh;
+  overflow: scroll;
+}
+.showData p {
+  text-align: center;
+}
+.showData .headingView {
+  width: auto;
+  background: #eee;
+  font-family: sans-serif;
+  padding: 5px 0px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.425);
+}
+
+.timeHeading {
+  position: relative;
+  top: 0;
+  left: 0%;
+}
+.showData .dataView {
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  background: rgba(238, 238, 238, 0.3);
+  font-family: sans-serif;
+  padding: 4px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.233);
+}
+.showData .dataView:first-child {
+  flex: 0.33;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .textContainer .headerTitle {
+    font-size: 24px;
+  }
+}
+@media only screen and (min-device-width: 0px) and (max-device-width: 768px) {
+  .textContainer .headerTitle {
+    font-size: 18px;
+  }
+}

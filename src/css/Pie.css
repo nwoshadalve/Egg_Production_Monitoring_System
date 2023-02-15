@@ -1,0 +1,21 @@
+h1 {
+  margin: 20px 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+.pieChart {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+svg {
+  margin-top: -20px;
+}
+#chartArea div {
+  height: 50px;
+  width: 200px;
+  text-align: left;
+  padding: 5px;
+  border-radius: 2px;
+  background: lemonchiffon;
+}
